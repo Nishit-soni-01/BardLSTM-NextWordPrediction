@@ -2,7 +2,7 @@
 
 An NLP deep learning project that predicts the next word in a sequence using a Recurrent Neural Network (LSTM/GRU) trained on the full original text of **William Shakespeare's *Hamlet***. Deployed as an interactive, parchment-themed web application using Streamlit.
 
-🔗 **[Live Demo App](YOUR_LIVE_APP_LINK_HERE)**
+
 
 ---
 
@@ -27,7 +27,7 @@ An NLP deep learning project that predicts the next word in a sequence using a R
 ## 🌐 Live Web App
 
 You can access the hosted application here:  
-👉 **[Hamlet - Next Word Oracle Live](YOUR_LIVE_APP_LINK_HERE)**
+👉 **[Hamlet - Next Word Oracle Live](https://bardlstm-nextwordprediction-fjxzxxbwuxdmstborhqnbi.streamlit.app/)**
 
 ---
 

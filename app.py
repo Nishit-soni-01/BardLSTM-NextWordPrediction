@@ -5,9 +5,7 @@ import random
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# ----------------------------------------------------------------------------
-# Page config (must be first Streamlit call)
-# ----------------------------------------------------------------------------
+
 st.set_page_config(
     page_title="Hamlet — Next Word Oracle",
     page_icon="🗡️",

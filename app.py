@@ -13,9 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ----------------------------------------------------------------------------
-# Theming — parchment & candlelit-castle palette, Shakespearean typography
-# ----------------------------------------------------------------------------
+
 st.markdown(
     """
     <style>

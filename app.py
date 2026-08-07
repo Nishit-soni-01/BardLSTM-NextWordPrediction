@@ -183,9 +183,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ----------------------------------------------------------------------------
-# Load model & tokenizer (cached so the castle doesn't rebuild on every click)
-# ----------------------------------------------------------------------------
+
 @st.cache_resource(show_spinner="Summoning the ghost of the LSTM...")
 def load_assets():
     model = load_model("next_word_lstm.h5")

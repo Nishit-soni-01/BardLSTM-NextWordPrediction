@@ -194,9 +194,7 @@ def load_assets():
 
 model, tokenizer = load_assets()
 
-# ----------------------------------------------------------------------------
-# Prediction logic (unchanged)
-# ----------------------------------------------------------------------------
+
 def predict_next_word(model, tokenizer, text, max_sequence_len):
     token_list = tokenizer.texts_to_sequences([text])[0]
     if len(token_list) >= max_sequence_len:

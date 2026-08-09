@@ -208,9 +208,7 @@ def predict_next_word(model, tokenizer, text, max_sequence_len):
     return None
 
 
-# ----------------------------------------------------------------------------
-# Sidebar — lore & controls
-# ----------------------------------------------------------------------------
+
 FAMOUS_LINES = [
     "To be, or not to be, that is the question",
     "Something is rotten in the state of Denmark",

@@ -246,9 +246,7 @@ with st.sidebar:
     st.markdown("---")
     st.caption("Act well your part, there all the honour lies.")
 
-# ----------------------------------------------------------------------------
-# Header
-# ----------------------------------------------------------------------------
+
 random_quote = random.choice(FAMOUS_LINES)
 st.markdown(
     f"""

@@ -260,9 +260,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ----------------------------------------------------------------------------
-# Main interaction
-# ----------------------------------------------------------------------------
+
 default_text = (
     chosen_line if chosen_line != "— choose a line —" else "To be or not to"
 )
